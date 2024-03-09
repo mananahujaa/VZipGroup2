@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     serial
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _cmp, symObjAddr: 0x0, symBinAddr: 0x1000032BC, symSize: 0x34 }
+  - { offsetInCU: 0xC1, offset: 0xC1, size: 0x8, addend: 0x0, symName: _cmp, symObjAddr: 0x0, symBinAddr: 0x1000032BC, symSize: 0x34 }
+  - { offsetInCU: 0xF7, offset: 0xF7, size: 0x8, addend: 0x0, symName: _compress_thread, symObjAddr: 0x34, symBinAddr: 0x1000032F0, symSize: 0x358 }
+  - { offsetInCU: 0x1F1, offset: 0x1F1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x38C, symBinAddr: 0x100003648, symSize: 0x69C }
+...
